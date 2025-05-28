@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B3432872DE6E9970084BAE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B3432862DE6E9970084BAE8 /* main.cpp */; };
+		5B34328E2DE6E9B10084BAE8 /* diceGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B34328D2DE6E9B10084BAE8 /* diceGame.cpp */; };
+		5B3432902DE6EA2E0084BAE8 /* patternDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B34328F2DE6EA2E0084BAE8 /* patternDisplay.cpp */; };
+		5B3432922DE6EA7B0084BAE8 /* numFileProcessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B3432912DE6EA7B0084BAE8 /* numFileProcessing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		5B3432832DE6E9970084BAE8 /* M05Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = M05Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B3432862DE6E9970084BAE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5B34328D2DE6E9B10084BAE8 /* diceGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = diceGame.cpp; sourceTree = "<group>"; };
+		5B34328F2DE6EA2E0084BAE8 /* patternDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = patternDisplay.cpp; sourceTree = "<group>"; };
+		5B3432912DE6EA7B0084BAE8 /* numFileProcessing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numFileProcessing.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		5B3432852DE6E9970084BAE8 /* M05Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				5B3432862DE6E9970084BAE8 /* main.cpp */,
+				5B3432912DE6EA7B0084BAE8 /* numFileProcessing.cpp */,
+				5B34328D2DE6E9B10084BAE8 /* diceGame.cpp */,
+				5B34328F2DE6EA2E0084BAE8 /* patternDisplay.cpp */,
 			);
 			path = M05Assignment;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3432872DE6E9970084BAE8 /* main.cpp in Sources */,
+				5B3432922DE6EA7B0084BAE8 /* numFileProcessing.cpp in Sources */,
+				5B34328E2DE6E9B10084BAE8 /* diceGame.cpp in Sources */,
+				5B3432902DE6EA2E0084BAE8 /* patternDisplay.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
