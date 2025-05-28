@@ -2,7 +2,6 @@
 //  main.cpp
 //  M05Assignment
 //
-//  Created by Ahmad Farid Hamdard on 5/27/25.
 //
 
 #include <iostream>
